@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: gray;
+}
+
+header {
+    padding: 15px 0;
+    background-color: #222222;
+    text-align: center;
+    font-size: 2em;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-hamburguer button {
+    width: 100%;
+    cursor: pointer;
+}
+
+.menu-hamburguer img {
+    height: 50px;
+}
+
+.menu-link {
+    background-color: #222222;
+    padding: 15px;
+    border-bottom: 3px solid gray;
+}
+
+.menu-link button {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 24px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+main article {
+    width: 90%;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px;
+}
+
+article h3 {
+    font-size: 24px;
+}
+
+article p {
+    text-indent: 25px;
+}
